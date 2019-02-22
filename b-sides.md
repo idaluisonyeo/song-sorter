@@ -1,8 +1,5 @@
 ---
-type: song
-group: LOONA
-sortType: "b-sides (no intros)"
-emoji: 🐰🐱🕊🐸🦌🦉🐟🦇🍎🐧🦋🐺
+type: "b-sides (no intros)"
 ---
 
 <script type="text/javascript">

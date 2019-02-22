@@ -1,7 +1,5 @@
 ---
-group: LOONA
 type: "purists (no intros or remixes)"
-emoji: 🐰🐱🕊🐸🦌🦉🐟🦇🍎🐧🦋🐺
 ---
 
 <script type="text/javascript">

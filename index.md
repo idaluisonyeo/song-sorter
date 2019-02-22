@@ -1,7 +1,5 @@
 ---
-sortType: "all songs"
-group: LOONA
-emoji: 🐰🐱🕊🐸🦌🦉🐟🦇🍎🐧🦋🐺
+type: "all songs"
 ---
 
 <script type="text/javascript">

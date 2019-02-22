@@ -1,0 +1,73 @@
+---
+layout: sorter
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.url}}/{{ site.baseurl }}/assets/sorter.css">
+  <title>LOOΠΔ song sorter | {{ page.type }}</title>
+  <link rel="icon" type="image/png" href="{{ site.url}}/{{ site.baseurl }}/assets/moon.png">
+  <script src="{{ site.url}}/{{ site.baseurl }}/assets/sorter.js"></script>
+  {{ content }}
+</head>
+
+<body class="song-sorter">
+  <header class="page-header container">
+    <h1>LOOΠΔ song sorter | {{ page.type }}</h1>
+    <div>
+      <p>
+        Choose your favorite song in each battle to get an accurate list of your favOriTe LOOΠΔ tracks.
+        🐰🐱🕊🐸🦌🦉🐟🦇🍎🐧🦋🐺
+      </p>
+      <p>
+        {% if page.type == 'song' %}
+          <a href="{{ site.baseurl }}">all tracks</a> • <a href="{{ site.baseurl }}/solos">solos only</a> • <a href="{{ site.baseurl }}/units">units only</a> • <a href="{{ site.baseurl }}/ot12">OT12 only</a> • <a href="titles">title tracks only</a> • <a href="{{ site.baseurl }}/purists">no intros/remixes</a> • <a href="{{ site.baseurl }}/b-sides">b-sides only</a>
+        {% endif %}
+      </p>
+    </div>
+  </header>
+  <main class="page-sorter">
+    <div class="container">
+      <h2 id="battleNumber" class="sorter-header">
+        <strong>battle #1</strong> 0% sorted
+      </h2>
+
+      <div class="sorter-game">
+        <div class="main-battle">
+          <div id="optionA" onclick="if(finishFlag==0) sortList(-1);" class="sorter-option">
+            x
+          </div>
+          <div class="versus"><span>vs</span></div>
+          <div id="optionB" onclick="if(finishFlag==0) sortList(1);" class="sorter-option">
+            y
+          </div>
+        </div>
+        <div onclick="if(finishFlag==0) sortList(0);" class="sorter-option option-tie">
+          it’s a tie!
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="page-result">
+    <div class="container" id="battleResult">
+    </div>
+  </section>
+
+  <footer class="page-footer">
+  </footer>
+
+  <script type="text/javascript">
+    /**
+      * Initialize
+    **/
+    initList();
+    showFinal();
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+title: LOONAVERSE.com song sorters
+author: "@skullface"
+description: >-
+  🌙🎀🍭🤟💕 mobile wallpapers + lockscreens of kpop idols
+baseurl: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  Choose your favorite song in each battle to get an accurate list of your favorite LOONA tracks!
+baseurl: "song-sorter"
+url: "https://loonaverse.com"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from site build
+exclude:
+  - .DS_Store
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - README.md

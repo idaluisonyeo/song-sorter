@@ -1,5 +1,5 @@
 ---
-type: "all songs"
+type: "all tracks"
 ---
 
 <script type="text/javascript">

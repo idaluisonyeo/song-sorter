@@ -54,6 +54,11 @@ type: "purists (no intros or remixes)"
     "LOOΠΔ – Satellite",
     "LOOΠΔ – Curiosity",
     "LOOΠΔ – Colors",
-    "LOOΠΔ – Where You At"
+    "LOOΠΔ – Where You At",
+    "LOOΠΔ – 365",
+    "LOOΠΔ – So What",
+    "LOOΠΔ – Number 1",
+    "LOOΠΔ – Oh (Yes I Am)",
+    "LOOΠΔ – Ding Ding Dong (땡땡땡)"
   );
 </script>

@@ -39,6 +39,10 @@ type: "b-sides (no intros)"
     "LOOΠΔ – Stylish",
     "LOOΠΔ – Curiosity",
     "LOOΠΔ – Colors",
-    "LOOΠΔ – Where You At"
+    "LOOΠΔ – Where You At",
+    "LOOΠΔ – 365",
+    "LOOΠΔ – Number 1",
+    "LOOΠΔ – Oh (Yes I Am)",
+    "LOOΠΔ – Ding Ding Dong (땡땡땡)"
   );
 </script>

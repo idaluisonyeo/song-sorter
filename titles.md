@@ -22,6 +22,7 @@ type: "title tracks only"
     "Go Won – One and Only",
     "Olivia Hye – Egoist",
     "LOOΠΔ – Hi High",
-    "LOOΠΔ – Butterfly"
+    "LOOΠΔ – Butterfly",
+    "LOOΠΔ – So What"
   );
 </script>
